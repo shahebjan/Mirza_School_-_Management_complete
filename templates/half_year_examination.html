@@ -1,0 +1,75 @@
+<!--------------------------------------- Calling header and footer from base html --------------------------------------->
+{% extends 'base.html'%}
+<!---------------------------------------- Body section will go here --------------------------------------->
+{% block content %}
+<!-------------------------------------Form top header section starts-------------------------------------->
+<div class="half_year_exam_div">
+    <div class="half_year_exam_div_top_title">
+        <h1>Half Yearly Examination</h1>
+        <p>2023 - 2024</p>
+        <h2>Student Information</h2>
+    </div>
+</div>
+<!-------------------------------------Form top header section ends-------------------------------------->
+<!-------------------------------------Main form section starts-------------------------------------->
+<div class="half_year_top_main_form_div">
+    <form action="/submit-half-year-exam" method="POST">
+        <label class="half_year_exam_class" for="Class">SELECT CLASS</label>
+        <select id="half_year_exam_class" name="Class" required>
+            <option value="none">None</option>
+            <option value="class1">class__1</option>
+            <option value="class2">class__2</option>
+            <option value="class3">class__3</option>
+            <option value="class4">class__4</option>
+            <option value="class5">class__5</option>
+            <option value="class6">class__6</option>
+            <option value="class7">class__7</option>
+            <option value="class8">class__8</option>
+            <option value="class9">class__9</option>
+            <option value="class10">class__10</option>
+            <option value="class11">class__11</option>
+            <option value="class12">class__12</option>
+        </select><br><br>
+
+        <label class="half_year_exam_Student_Id" for="student_id">STUDENT ID</label>
+        <input type="text" name="student_id" id="half_year_exam_Student_Id"><br><br>
+
+        <label class="half_year_exam_firstname" for="first_name">FIRST NAME</label>
+        <input type="text" name="first_name" id="half_year_exam_firstname"><br><br>
+
+        <label class="half_year_exam_lastname" for="last_name">LAST NAME</label>
+        <input type="text" name="last_name" id="half_year_exam_lastname"><br><br>
+
+        <h1 class="marks_details">Marks Details</h1>
+        <p class="subject">SUBJECT</p>
+        <p class="marks_gain">MARKS OBTAINED</p>
+        <p class="total_marks">TOTAL MARKS</p>
+
+        <label class="half_year_exam_subject_hindi" for="hindi">HINDI</label>
+        <input type="number" id="half_year_exam_subject_hindi_gain" name="hindi_gain" step="0.01">
+        <input type="number" id="half_year_exam_subject_hindi_total" name="hindi_total" step="0.01"><br><br>
+
+        <label class="half_year_exam_subject_english" for="english">ENGLISH</label>
+        <input type="number" id="half_year_exam_subject_english_gain" name="english_gain" step="0.01">
+        <input type="number" id="half_year_exam_subject_english_total" name="english_total" step="0.01"><br><br>
+
+        <label class="half_year_exam_subject_maths" for="maths">MATHS</label>
+        <input type="number" id="half_year_exam_subject_maths_gain" name="maths_gain" step="0.01">
+        <input type="number" id="half_year_exam_subject_maths_total" name="maths_total" step="0.01"><br><br>
+
+        <label class="half_year_exam_subject_science" for="science">SCIENCE</label>
+        <input type="number" id="half_year_exam_subject_science_gain" name="science_gain" step="0.01">
+        <input type="number" id="half_year_exam_subject_science_total" name="science_total" step="0.01"><br><br>
+
+        <label class="half_year_exam_subject_computer" for="computer">COMPUTER</label>
+        <input type="number" id="half_year_exam_subject_computer_gain" name="computer_gain" step="0.01">
+        <input type="number" id="half_year_exam_subject_computer_total" name="computer_total" step="0.01"><br><br>
+
+
+        <input class="feessubmitbutton" type="submit" value="Submit">
+        <input class="feesresetbutton" type="reset" value="Reset">
+    </form>
+</div>
+<!-------------------------------------Main form section ends-------------------------------------->
+{%endblock%}
+<!------------------------------------------ Body section will end here -------------------------------------->

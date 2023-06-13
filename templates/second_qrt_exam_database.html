@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second quaterly examination </title>
+</head>
+<body>
+<style>
+    tr, th, td {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    th {
+        background-color: whitesmoke;
+    }
+
+    button {
+        margin-left: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        background-color: grey;
+        font-style: italic;
+    }
+</style>
+<body>
+    <h1>Second Quaterly Examination Marks</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>CLASS NAME</th>
+                <th>STUDENT ID</th>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>HINDI</th>
+                <th>ENGLISH</th>
+                <th>MATHS</th>
+                <th>SCIENCE</th>
+                <th>COMPUTER</th>
+                <th>GRAND TOTAL</th>
+                <th>PERCENTAGE</th>
+                <th>DIVISION</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%for row in data%}
+            <tr>
+                <td>{{row[0]}}</td>
+                <td>{{row[1]}}</td>
+                <td>{{row[2]}}</td>
+                <td>{{row[3]}}</td>
+                <td>{{row[4]}}</td>
+                <td>{{row[5]}}</td>
+                <td>{{row[6]}}</td>
+                <td>{{row[7]}}</td>
+                <td>{{row[8]}}</td>
+                <td>{{row[9]}}</td>
+                <td>{{row[10]}}</td>
+                <td>{{row[11]}}</td>
+            </tr>
+            {%endfor%}
+            <a href="/secondQrtExam"><button>Insert New</button></a>
+        </tbody>
+    </table>
+</body>
+</html>

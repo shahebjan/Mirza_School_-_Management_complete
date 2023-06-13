@@ -1,0 +1,3491 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 39);
+}
+
+.main_div {
+  /* border: 1px solid white; */
+  height: 4400px;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.college_name_div {
+  /* border: 1px solid red; */
+  height: 150px;
+  width: 100%;
+}
+
+.college_name {
+  /* border: 1px solid red; */
+  height: 149px;
+  width: 100%;
+  background: linear-gradient(to right, #020a46, #6987da);
+  margin-top: 0;
+}
+
+.college_name h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 60px;
+  /* font-family: 'Kaushan Script', cursive; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-style: italic;
+
+}
+
+.gradient-text span {
+  font-size: 80px;
+  color: rgb(255, 128, 0);
+
+}
+
+.college_name p {
+  color: white;
+  /* border: 1px solid red; */
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.banner_div {
+  /* border: 1px solid red; */
+  height: 550px;
+  width: 100%;
+}
+
+.banner_image {
+  width: 100%;
+  height: 550px;
+  opacity: 0.5;
+}
+
+.quote-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 50%;
+  transform: translate(0, -50%);
+  text-align: left;
+  color: #fff;
+  padding: 0 20px;
+  /* border: 1px solid red; */
+}
+
+.quote {
+  font-size: 30px;
+  /* font-weight: bold; */
+  /* line-height: 1.5; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-left: 50px;
+  font-style: italic;
+  margin-bottom: 0;
+
+}
+
+.shahabjan {
+  /* border: 1px solid red; */
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 33%;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* color: rgb(250, 200, 0); */
+}
+
+.quote-container button {
+  border: none;
+  margin-left: 50px;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.quote-container button:hover {
+  background-color: #020a46;
+  color: white;
+  transition: 0.4s;
+  cursor: pointer;
+
+}
+
+.quote-container button:active {
+  background-color: rgb(247, 136, 18);
+}
+
+.grid_text_div {
+  /* border: 1px solid red; */
+  height: 250px;
+  width: 100%;
+}
+
+.first_grid_div {
+  border: 1px solid rgb(255, 123, 0);
+  height: 249px;
+  width: 350px;
+  display: inline-block;
+  background-color: rgb(255, 89, 0);
+  margin-left: 47px;
+}
+
+.certified-teachers-icon {
+  font-size: 48px;
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 152px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.first_grid_div h4 {
+  font-family: arial;
+  color: white;
+  /* border: 1px solid black; */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+
+}
+
+.first_grid_div p {
+  /* border: 1px solid black; */
+  margin-top: 5px;
+  width: 300px;
+  text-align: center;
+  margin-left: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.second_grid_div {
+  /* border: 1px solid white; */
+  height: 249px;
+  width: 350px;
+  display: inline-block;
+  background-color: none;
+  vertical-align: top;
+  background-color: #010730;
+}
+
+.special-education-icon {
+  font-size: 48px;
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 152px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.second_grid_div h4 {
+  font-family: arial;
+  color: white;
+  /* border: 1px solid black; */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+
+}
+
+.second_grid_div p {
+  /* border: 1px solid black; */
+  margin-top: 5px;
+  width: 300px;
+  text-align: center;
+  margin-left: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.third_grid_div {
+  border: 1px solid rgb(255, 123, 0);
+  height: 249px;
+  width: 350px;
+  display: inline-block;
+  background-color: rgb(255, 89, 0);
+  /* margin-left: 47px; */
+}
+
+.book-library-icon {
+  font-size: 48px;
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 152px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.third_grid_div h4 {
+  font-family: arial;
+  color: white;
+  /* border: 1px solid black; */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+
+}
+
+.third_grid_div p {
+  /* border: 1px solid black; */
+  margin-top: 5px;
+  width: 300px;
+  text-align: center;
+  margin-left: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.forth_grid_div {
+  /* border: 1px solid white; */
+  height: 249px;
+  width: 350px;
+  display: inline-block;
+  background-color: #010730;
+  /* margin-left: 47px; */
+}
+
+.sport-clubs-icon {
+  font-size: 48px;
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 152px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.forth_grid_div h4 {
+  font-family: arial;
+  color: white;
+  /* border: 1px solid black; */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+
+}
+
+.forth_grid_div p {
+  /* border: 1px solid black; */
+  margin-top: 5px;
+  width: 300px;
+  text-align: center;
+  margin-left: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.bulb_div {
+  /* border: 1px solid red; */
+  height: 300px;
+  width: 93%;
+  margin-left: 47px;
+  background-color: whitesmoke;
+  margin-top: 100px;
+}
+
+.bulb_img_div {
+  /* border: 1px solid red; */
+  height: 244px;
+  width: 26%;
+  display: inline-block;
+  margin: 27px 100px;
+
+}
+
+.bulb_pic {
+  /* border: 1px solid red; */
+  width: 99.5%;
+}
+
+.bulb_text_div {
+  /* border: 1px solid red; */
+  height: 240px;
+  width: 55%;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 27px;
+}
+
+.bulb_text_div h2 {
+  /* border: 1px solid red; */
+  font-size: 40px;
+  font-family: 'Signika', sans-serif;
+  color: #00041a;
+  font-style: italic;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.bulb_text_div p {
+  /* border: 1px solid red; */
+  font-size: 20px;
+  font-style: italic;
+  line-height: 30px;
+  margin-top: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bulb_text_div button {
+  border: none;
+  padding: 10px 30px;
+  background-color: orangered;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.bulb_text_div button:hover {
+  background-color: #00041a;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.bulb_text_div button:active {
+  opacity: 0.8;
+  color: orangered;
+}
+
+.three_learning_div {
+  /* border: 1px solid white; */
+  height: 500px;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.three_learning_div h2 {
+  /* border: 1px solid red; */
+  font-size: 35px;
+  width: 38%;
+  color: white;
+  font-family: 'Signika', sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 50px 480px;
+  font-style: italic;
+  font-weight: none;
+}
+
+.three_learning_div span {
+  color: orangered;
+}
+
+.three_learning_div p {
+  /* border: 1px solid red; */
+  color: rgb(226, 224, 224);
+  width: 40%;
+  font-size: 25px;
+  margin-left: 470px;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  word-spacing: 3px;
+  line-height: 33px;
+}
+
+.learningmaindiv {
+  /* border: 1px solid red; */
+  height: 450px;
+  width: 93%;
+  margin-left: 47px;
+}
+
+.learning_pic_div1 {
+  /* border: 1px solid red; */
+  height: 445px;
+  width: 30%;
+  display: inline-block;
+
+}
+
+.learningpic1 {
+  /* border: 1px solid red; */
+  width: 422px;
+  height: 260px;
+
+}
+
+.learning_pic_div2 {
+  /* border: 1px solid red; */
+  height: 445px;
+  width: 30%;
+  display: inline-block;
+  margin-left: 65px;
+  vertical-align: top;
+
+}
+
+.learningpic2 {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 260px;
+}
+
+.learning_pic_div3 {
+  /* border: 1px solid red; */
+  height: 445px;
+  width: 30%;
+  display: inline-block;
+  margin-left: 63px;
+  vertical-align: top;
+
+}
+
+.learningpic3 {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 260px;
+}
+
+
+.learningmaindiv {
+  display: flex;
+  justify-content: center;
+}
+
+.image_container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.play_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.learning_pic_div1 h2 {
+  color: white;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  font-family: 'Signika', sans-serif;
+  font-style: italic;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.learning_pic_div1 p {
+  color: whitesmoke;
+  font-size: 20px;
+  /* border: 1px solid red; */
+  width: 80%;
+  margin-top: 0;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.learning_pic_div1 button {
+  border: none;
+  padding: 10px 30px;
+  background-color: orangered;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+}
+
+.learning_pic_div1 button:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+
+.learning_pic_div2 h2 {
+  color: white;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  font-family: 'Signika', sans-serif;
+  font-style: italic;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.learning_pic_div2 p {
+  color: whitesmoke;
+  font-size: 20px;
+  /* border: 1px solid red; */
+  width: 80%;
+  margin-top: 0;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.learning_pic_div2 button {
+  border: none;
+  padding: 10px 30px;
+  background-color: orangered;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+}
+
+.learning_pic_div2 button:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.learning_pic_div3 h2 {
+  color: white;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  font-family: 'Signika', sans-serif;
+  font-style: italic;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.learning_pic_div3 p {
+  color: whitesmoke;
+  font-size: 20px;
+  /* border: 1px solid red; */
+  width: 80%;
+  margin-top: 0;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.learning_pic_div3 button {
+  border: none;
+  padding: 10px 30px;
+  background-color: orangered;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+}
+
+.learning_pic_div3 button:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.expand_quote_div {
+/* border: 1px solid red; */
+height: 400px;
+width: 100%;
+margin-top: 5%;
+}
+
+.expand_quote_div h1 {
+color: white;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+border-top: 2px solid grey;
+text-align: center;
+font-size: 40px;
+padding-top: 20px;
+}
+
+.expand_quote_div p {
+color: rgba(255, 255, 255, 0.837);
+/* border: 1px solid red; */
+width: 45%;
+font-size: 25px;
+font-style: italic;
+margin-left: 28%;
+text-align: center;
+line-height: 40px;
+}
+
+.goals_main_div {
+/* border: 1px solid red; */
+width: 100%;
+height: 460px;
+}
+
+.effective_div {
+/* border: 1px solid white; */
+height: 448px;
+width: 24%;
+display: inline-block;
+margin-left: 25px;
+}
+
+.cap_pic {
+width: 100%;
+/* border: 1px solid red; */
+margin-bottom: 0;
+}
+
+.effective_div h1 {
+color: white;
+/* border: 1px solid red; */
+margin-top: 0;
+font-family: 'Signika', sans-serif;
+font-style: italic;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.effective_div p {
+color: white;
+/* border: 1px solid red; */
+font-size: 20px;
+font-style: italic;
+line-height: 25px;
+margin-bottom: 10px;
+}
+
+.effective_div button {
+border: none;
+padding: 10px 30px;
+background-color: orangered;
+color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+margin-top: 0;
+}
+
+.effective_div button:hover {
+background-color: white;
+color: orangered;
+cursor: pointer;
+transition: 0.4s;
+}
+
+.flexible_div {
+/* border: 1px solid white; */
+height: 448px;
+width: 24%;
+display: inline-block;
+vertical-align: top;
+}
+
+.arrow_pic {
+width: 100%;
+/* border: 1px solid red; */
+margin-bottom: 0;
+}
+
+.flexible_div h1 {
+color: white;
+/* border: 1px solid red; */
+margin-top: 0;
+font-family: 'Signika', sans-serif;
+font-style: italic;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.flexible_div p {
+color: white;
+/* border: 1px solid red; */
+font-size: 20px;
+font-style: italic;
+line-height: 25px;
+margin-bottom: 59px;
+}
+
+.flexible_div button {
+border: none;
+padding: 10px 30px;
+background-color: orangered;
+color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+margin-top: 0;
+}
+
+.flexible_div button:hover {
+background-color: white;
+color: orangered;
+cursor: pointer;
+transition: 0.4s;
+}
+
+.relevant_div {
+/* border: 1px solid white; */
+height: 448px;
+width: 24%;
+display: inline-block;
+vertical-align: top;
+}
+
+.goal_pic {
+width: 100%;
+/* border: 1px solid red; */
+margin-bottom: 0;
+}
+
+.relevant_div h1 {
+color: white;
+/* border: 1px solid red; */
+margin-top: 0;
+font-family: 'Signika', sans-serif;
+font-style: italic;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.relevant_div p {
+color: white;
+/* border: 1px solid red; */
+font-size: 20px;
+font-style: italic;
+line-height: 25px;
+margin-bottom: 35px;
+}
+
+.relevant_div button {
+border: none;
+padding: 10px 30px;
+background-color: orangered;
+color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+margin-top: 0;
+}
+
+.relevant_div button:hover {
+background-color: white;
+color: orangered;
+cursor: pointer;
+transition: 0.4s;
+}
+
+.graph_div {
+/* border: 1px solid white; */
+height: 448px;
+width: 24%;
+display: inline-block;
+vertical-align: top;
+margin-right: 0;
+}
+
+.graph_pic {
+width: 100%;
+/* border: 1px solid red; */
+margin-bottom: 0;
+}
+
+.graph_div h1 {
+color: white;
+/* border: 1px solid red; */
+margin-top: 0;
+font-family: 'Signika', sans-serif;
+font-style: italic;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.graph_div p {
+color: white;
+/* border: 1px solid red; */
+font-size: 20px;
+font-style: italic;
+line-height: 25px;
+margin-bottom: 35px;
+}
+
+.graph_div button {
+border: none;
+padding: 10px 30px;
+background-color: orangered;
+color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+margin-top: 0;
+}
+
+.graph_div button:hover {
+background-color: white;
+color: orangered;
+cursor: pointer;
+transition: 0.4s;
+}
+
+.fees_submit_div h1 {
+color: orangered;
+font-style: italic;
+text-align: center;
+font-size: 50px;
+margin-top: 10px;
+margin-bottom: 0;
+}
+
+.main_about_me_div {
+/* border-top: 1px solid white; */
+height: 750px;
+width: 100%;
+margin-top: 10px;
+border-bottom: 2px solid grey;
+padding-bottom: 20px;
+}
+
+.Shahabjan_img_div {
+/* border: 1px solid red; */
+height: 330px;
+width: 20%;
+margin-left: 40%;
+}
+
+.shahabjan_photo {
+border: 3px solid black;
+width: 100%;
+border-radius: 200px;
+}
+
+.main_about_me_div h1 {
+/* border: 1px solid red; */
+width: 28%;
+margin-left: 36%;
+color: rgb(255, 55, 0);
+font-size: 50px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+font-style: italic;
+
+}
+
+.main_about_me_div h2 {
+/* border: 1px solid red; */
+width: 28%;
+margin-left: 37%;
+color: white;
+font-size: 70px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+font-style: italic;
+margin-top: 0;
+text-align: center;
+}
+
+.main_about_me_div p {
+color: white;
+/* border: 1px solid red; */
+width: 50%;
+margin-left: 24%;
+font-size: 20px;
+line-height: 35px;
+text-align: center;
+font-style: italic;
+margin-bottom: 0;
+}
+
+
+.footer_div {
+border-top: 2px solid white;
+height: 250px;
+background-color: #020a46;
+}
+
+.left_footer_div {
+/* border: 1px solid red; */
+height: 150px;
+width: 200px;
+display: inline-block;
+margin: 4px 150px;
+margin-right: 0;
+}
+
+.left_footer_div h1 {
+color: white;
+font-style: italic;
+}
+
+.left_footer_div p {
+color: rgb(255, 102, 0);
+line-height: 10px;
+font-style: italic;
+}
+
+.middle_footer_div {
+/* border: 1px solid red; */
+height: 150px;
+width: 200px;
+display: inline-block;
+margin: 4px 130px;
+}
+
+.middle_footer_div h1 {
+color: white;
+font-style: italic;
+}
+
+.middle_footer_div p {
+color: rgb(255, 102, 0);
+line-height: 10px;
+font-style: italic;
+}
+
+
+.right_footer_div {
+/* border: 1px solid red; */
+height: 150px;
+width: 500px;
+display: inline-block;
+margin: 4px 50px;
+vertical-align: top;
+}
+
+.right_footer_div h1 {
+color: white;
+font-style: italic;
+}
+
+.right_footer_div p {
+color: rgb(255, 102, 0);
+line-height: 25px;
+font-style: italic;
+}
+
+.all_icons_div {
+/* border: 1px solid red; */
+height: 68px;
+width: 100%;
+margin-top: 20px;
+text-align: center;
+}
+
+.social-icons {
+list-style: none;
+padding: 0;
+margin: 0;
+justify-content: center;
+color: white;
+}
+
+.social-icons li {
+display: inline-block;
+margin-right: 10px;
+}
+
+.social-icons li:last-child {
+margin-right: 0;
+}
+
+.social-icons a {
+color: white;
+font-size: 24px;
+}
+
+.social-icons a:hover {
+color: #007bff;
+}
+
+.all_icons_div p {
+color: orangered;
+font-style: italic;
+}
+
+/* Navigation bar perfect */
+
+.navbar {
+background: linear-gradient(to right, #6987da, #020a46);
+display: flex;
+justify-content: center;
+border-bottom: 1px solid black;
+border-top: none;
+}
+
+.navbar a {
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: 'Signika', sans-serif;
+font-style: italic;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar a:hover {
+color: rgb(255, 128, 0);
+transition: 0.15s;
+background-color: none;
+}
+
+.dropdown:hover .dropbtn {
+color: rgb(255, 128, 0);
+transition: 0.15s;
+background-color: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+font-family: 'Signika', sans-serif;
+font-style: italic;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+cursor: pointer;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+/* background-color: #f9f9f9; */
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: none;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.admission_div {
+  /* border: 1px solid red; */
+  height: 650px;
+  width: 99.8%;
+  margin-top: 0px;
+}
+
+.admissiondiv {
+  /* border-top: 2px solid grey; */
+  height: 100px;
+  width: 100%;
+  /* border-bottom: 2px solid grey; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  margin-top: 0;
+
+
+}
+
+.admissiondiv h2 {
+  /* border: 1px solid black; */
+  font-size: 50px;
+  margin-top: 0;
+  padding-left: 38%;
+  margin-bottom: 0;
+  color: orangered;
+  font-style: italic;
+
+}
+
+.admissiondiv p {
+  /* border: 1px solid black; */
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 46%;
+  color: white;
+  font-style: italic;
+
+}
+
+.admissionformsection {
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  height: 450px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5px;
+  padding-top: 10px;
+  color: white;
+  font-style: italic;
+  border: 2px solid white;
+}
+
+.admissionclassId {
+  /* border: 1px solid white; */
+  margin-left: 150px;
+  
+
+}
+
+#admissionclass {
+  border: 1px solid white;
+  margin-left: 90px;
+}
+
+.admissionid {
+  /* border: 1px solid white; */
+  margin-left: 150px;
+  margin-right: 12%;
+}
+
+#admissioninputid {
+  border: 1px solid white;
+  margin-left: 105px;
+}
+
+.admissionfirst_name {
+  /* border: 1px solid white; */
+  margin-left: 150px;
+}
+
+#admissionfname {
+  border: 1px solid white;
+  margin-left: 105px;
+}
+
+.admissionlast_name {
+  /* border: 1px solid white; */
+  margin-left: 150px;
+  margin-right: 8px;
+}
+
+#admissionlname {
+  border: 1px solid white;
+  margin-left: 103px;
+}
+
+.admissionfather_name {
+  /* border: 1px solid red; */
+  margin-left: 150px;
+}
+
+#admissionfaname {
+  border: 1px solid white;
+  margin-left: 78px;
+}
+
+.admissionmother_name {
+  /* border: 1px solid red; */
+  margin-left: 150px;
+}
+
+#admissionmoname {
+  border: 1px solid white;
+  margin-left: 70px;
+}
+
+.admissionmob_no {
+  /* border: 1px solid red; */
+  margin-left: 150px;
+}
+
+#admissionmobno {
+  border: 1px solid white;
+  margin-left: 66px;
+}
+
+.admissionadhar_card {
+  /* border: 1px solid red; */
+  margin-left: 150px;
+}
+
+#admissionadharcard {
+  border: 1px solid white;
+  margin-left: 69px;
+}
+
+.admissionadress {
+  /* border: 1px solid red; */
+  margin-left: 150px;
+}
+
+#admissionadrss {
+  border: 1px solid white;
+  margin-left: 125px;
+}
+
+.admissionstudentid {
+  /* border: 1px solid white; */
+  margin-left: 25%;
+  margin-right: 17%;
+}
+
+#admissioninputstudentid {
+  border: 1px solid white;
+  /* margin-left: 105px; */
+}
+
+.admissionsubmitbutton {
+  margin-left: 37%;
+  border: 1px solid black;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.admissionsubmitbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.admissionresetbutton {
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.admissionresetbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.fees_submission_main_div {
+  /* border-bottom: 2px solid grey; */
+  /* border-top: 2px solid grey; */
+  height: 960px;
+  width: 99.9%;
+  margin-top: 0px;
+  }
+  
+  .fees_submit_div {
+  /* border-top: 2px solid grey; */
+  /* border-bottom: 2px solid grey; */
+  height: 130px;
+  width: 99.9%;
+  padding-top: 20px;
+  }
+  
+  .fees_submit_div h1 {
+  color: orangered;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  }
+  
+  .fees_submit_div p {
+  color: white;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  
+  }
+  
+  .fees_submission_main_div .formsectionfees {
+  border: 2px solid white;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  height: 730px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5px;
+  padding-top: 10px;
+  /* background-color: whitesmoke; */
+  color: white;
+  font-style: italic;
+  }
+  
+  .feesclass {
+  /* border: 1px solid red; */
+  margin-left: 25%;
+  
+  }
+  
+  #feesclass {
+  border: 1px solid white;
+  margin-left: 88px;
+  }
+  
+  .fees_id {
+  /* border: 1px solid red; */
+  margin-left: 25%;
+  }
+  
+  #feesinputi_d {
+  border: 1px solid white;
+  margin-left: 176px; 
+  }
+  
+  .feesid {
+  /* border: 1px solid red; */
+  margin-left: 25%;
+  }
+  
+  #feesinputid {
+  border: 1px solid white;
+  margin-left: 17%;
+  }
+  
+  .feesfirst_name {
+  /* border: 1px solid red; */
+  margin-left: 25%;
+  }
+  
+  #feesfname {
+  border: 1px solid white;
+  margin-left: 103px;
+  }
+  
+  .feeslast_name {
+  /* border: 1px solid red; */
+  margin-left: 25%;
+  }
+  
+  #feeslname {
+  border: 1px solid white;
+  margin-left: 109px;
+  }
+  
+  .feesapril {
+  /* border: 1px solid red; */
+  margin-left: 25%;
+  }
+  
+  #feesapr {
+  border: 1px solid white;
+  margin-left: 126px; 
+  }
+  
+  .feesmay {
+  /* border: 1px solid red; */
+  margin-left: 25%;
+  }
+  
+  #feesmay {
+  border: 1px solid white;
+  margin-left: 125px; 
+  }
+  
+  .feesjune {
+  /* border: 1px solid red; */
+  margin-left: 25%;  
+  }
+  
+  #feesjune {
+  border: 1px solid white;
+  margin-left: 117px; 
+  }
+  
+  .feesjuly {
+  /* border: 1px solid red; */
+  margin-left: 25%; 
+  }
+  
+  #feesjuly {
+  border: 1px solid white;
+  margin-left: 120px; 
+  }
+  
+  .feesaug {
+  /* border: 1px solid red; */
+  margin-left: 25%;  
+  }
+  
+  #feesaug {
+  border: 1px solid white;
+  margin-left: 95px;  
+  }
+  
+  .feessep {
+  /* border: 1px solid red; */
+  margin-left: 25%;   
+  }
+  
+  #feessep {
+  border: 1px solid white;
+  margin-left: 67px;  
+  }
+  
+  .feesoct {
+  /* border: 1px solid red; */
+  margin-left: 25%;     
+  }
+  
+  #feesoct {
+  border: 1px solid white;
+  margin-left: 85px;   
+  }
+  
+  .feesnov {
+  /* border: 1px solid red; */
+  margin-left: 25%;    
+  }
+  
+  #feesnov {
+  border: 1px solid white;
+  margin-left: 72px;  
+  }
+  
+  .feesdec {
+  /* border: 1px solid red; */
+  margin-left: 25%;     
+  }
+  
+  #feesdec {
+  border: 1px solid white;
+  margin-left: 72px; 
+  }
+  
+  .feesjan {
+  /* border: 1px solid red; */
+  margin-left: 25%; 
+  }
+  
+  #feesjan {
+  border: 1px solid white;
+  margin-left: 89px;  
+  }
+  
+  .feesfeb {
+  /* border: 1px solid red; */
+  margin-left: 25%;  
+  }
+  
+  #feesfeb {
+  border: 1px solid white;
+  margin-left: 78px; 
+  }
+  
+  .feesmar {
+  /* border: 1px solid red; */
+  margin-left: 25%; 
+  }
+  
+  #feesmar {
+  border: 1px solid white;
+  margin-left: 103px; 
+  }
+  
+  .feessubmitbutton {
+  margin-left: 37%;
+    border: 1px solid black;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(255, 89, 0);
+    font-size: 15px;
+    color: white;
+    padding: 11px 15px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .feessubmitbutton:hover {
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .feesresetbutton {
+    border: none;
+    background-color: rgb(255, 89, 0);
+    font-size: 15px;
+    color: white;
+    padding: 11px 15px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .feesresetbutton:hover {
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  .first_quarterly_exam_main_div {
+    /* border: 2px solid green; */
+    height: 800px;
+    width: 100%;
+  }
+
+  .Half_quarterly_exam_main_div {
+    /* border: 2px solid green; */
+    height: 800px;
+    width: 100%;
+  }
+
+  .final_quarterly_exam_main_div {
+    /* border: 2px solid green; */
+    height: 800px;
+    width: 100%;
+  }
+  
+  .first_qrt_exam_div_top_title {
+    /* border: 2px solid grey; */
+    height: 150px;
+    width: 100%;
+}
+
+.first_qrt_exam_div_top_title h1 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+}
+
+.first_qrt_exam_div_top_title p {
+    color: orangered;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid grey;
+    /* border: 2px solid red; */
+
+}
+
+.first_qrt_exam_div_top_title h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 0;
+    /* border: 1px solid red; */
+}
+
+.first_qrt_top_main_form_div {
+    /* border: 2px solid orangered; */
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.first_qrt_exam_class {
+    /* border: 1px solid red; */
+    color: white;
+    margin-left: 40%;
+    font-style: italic;
+
+}
+
+#first_qrt_exam_class {
+    /* border: 1px solid red; */
+    margin-left: 100px;
+}
+
+.first_qrt_exam_Id {
+    color: white;
+    /* border: 1px solid red; */
+    margin-left: 40%;
+    font-style: italic;
+}
+
+#first_qrt_exam_Id {
+    /* border: 1px solid red; */
+    margin-left: 188px;
+}
+
+.first_qrt_exam_Student_Id {
+    /* border: 1px solid red; */
+    color: white;
+    font-style: italic;
+    margin-left: 40%;
+}
+
+#first_qrt_exam_Student_Id {
+    /* border: 1px solid red; */
+    margin-left: 115px;
+}
+
+.first_qrt_exam_firstname {
+    color: white;
+    font-style: italic;
+    /* border: 1px solid red; */
+    margin-left: 40%;
+}
+
+#first_qrt_exam_firstname {
+    /* border: 1px solid red; */
+    margin-left: 116px;
+}
+
+.first_qrt_exam_lastname {
+    color: white;
+    font-style: italic;
+    /* border: 1px solid red; */
+    margin-left: 40%;
+}
+
+#first_qrt_exam_lastname {
+    /* border: 1px solid red; */
+    margin-left: 122px;
+}
+
+.marks_details {
+    color: white;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.subject {
+    color: white;
+    border: 1px solid orangered;
+    width: 10%;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 28%;
+    display: inline-block;
+}
+
+.marks_gain {
+    color: white;
+    border: 1px solid orangered;
+    width: 13%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px; 
+}
+
+.total_marks {
+    color: white;
+    border: 1px solid orangered;
+    width: 11%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.first_qrt_exam_subject_hindi {
+    color: white;
+    /* border: 1px solid red; */
+    margin-left: 32%;
+    font-style: italic;
+}
+
+#first_qrt_exam_subject_hindi_gain {
+    /* border: 1px solid red; */
+    margin-left: 140px;
+}
+
+#first_qrt_exam_subject_hindi_total {
+    /* border: 1px solid red; */
+    margin-left: 88px;
+}
+
+
+.first_qrt_exam_subject_english {
+    color: white;
+    /* border: 1px solid red; */
+    margin-left: 32%;
+    font-style: italic;
+}
+
+#first_qrt_exam_subject_english_gain {
+    /* border: 1px solid red; */
+    margin-left: 119px;
+}
+
+#first_qrt_exam_subject_english_total {
+    /* border: 1px solid red; */
+    margin-left: 88px;
+}
+
+
+.first_qrt_exam_subject_maths {
+    color: white;
+    /* border: 1px solid red; */
+    margin-left: 32%;
+    font-style: italic;
+}
+
+#first_qrt_exam_subject_maths_gain {
+    /* border: 1px solid red; */
+    margin-left: 135px;
+}
+
+#first_qrt_exam_subject_maths_total {
+    /* border: 1px solid red; */
+    margin-left: 88px;
+}
+
+
+
+.first_qrt_exam_subject_science {
+    color: white;
+    /* border: 1px solid red; */
+    margin-left: 32%;
+    font-style: italic;
+}
+
+#first_qrt_exam_subject_science_gain {
+    /* border: 1px solid red; */
+    margin-left: 121px;
+}
+
+#first_qrt_exam_subject_science_total {
+    /* border: 1px solid red; */
+    margin-left: 88px;
+}
+
+
+
+.first_qrt_exam_subject_computer {
+    color: white;
+    /* border: 1px solid red; */
+    margin-left: 32%;
+    font-style: italic;
+}
+
+#first_qrt_exam_subject_computer_gain {
+    /* border: 1px solid red; */
+    margin-left: 100px;
+}
+
+#first_qrt_exam_subject_computer_total {
+    /* border: 1px solid red; */
+    margin-left: 88px;
+}
+
+
+.first_qrt_exam_subject_grand_total {
+    color: orangered;
+    /* border: 1px solid red; */
+    margin-left: 32%;
+    font-style: italic;
+}
+
+#first_qrt_exam_subject_grand_total_gain {
+    /* border: 1px solid red; */
+    margin-left: 82px;
+}
+
+#first_qrt_exam_subject_grand_total_total {
+    /* border: 1px solid red; */
+    margin-left: 88px;
+}
+
+.feessubmitbutton {
+    margin-left: 45%;
+    border: 1px solid black;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(255, 89, 0);
+    font-size: 15px;
+    color: white;
+    padding: 11px 15px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feessubmitbutton:hover {
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.feesresetbutton {
+    border: none;
+    background-color: rgb(255, 89, 0);
+    font-size: 15px;
+    color: white;
+    padding: 11px 15px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feesresetbutton:hover {
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.half_year_exam_div_top_title {
+  /* border-bottom: 2px solid grey; */
+  height: 150px;
+  width: 100%;
+}
+
+.half_year_exam_div_top_title h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.half_year_exam_div_top_title p {
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+
+}
+
+.half_year_exam_div_top_title h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 0;
+  /* border: 1px solid white; */
+}
+
+.half_year_top_main_form_div {
+  /* border: 1px solid white; */
+  height: 700px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.half_year_exam_class {
+  /* border: 1px solid red; */
+  color: white;
+  margin-left: 40%;
+  font-style: italic;
+
+}
+
+#half_year_exam_class {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+.half_year_exam_Id {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+  font-style: italic;
+}
+
+#half_year_exam_Id {
+  /* border: 1px solid red; */
+  margin-left: 188px;
+}
+
+.half_year_exam_Student_Id {
+  /* border: 1px solid red; */
+  color: white;
+  font-style: italic;
+  margin-left: 40%;
+}
+
+#half_year_exam_Student_Id {
+  /* border: 1px solid red; */
+  margin-left: 115px;
+}
+
+.half_year_exam_firstname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#half_year_exam_firstname {
+  /* border: 1px solid red; */
+  margin-left: 116px;
+}
+
+.half_year_exam_lastname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#half_year_exam_lastname {
+  /* border: 1px solid red; */
+  margin-left: 122px;
+}
+
+.marks_details {
+  color: white;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.subject {
+  color: white;
+  border: 1px solid orangered;
+  width: 10%;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 28%;
+  display: inline-block;
+}
+
+.marks_gain {
+  color: white;
+  border: 1px solid orangered;
+  width: 13%;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px; 
+}
+
+.total_marks {
+  color: white;
+  border: 1px solid orangered;
+  width: 11%;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+.half_year_exam_subject_hindi {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#half_year_exam_subject_hindi_gain {
+  /* border: 1px solid red; */
+  margin-left: 140px;
+}
+
+#half_year_exam_subject_hindi_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+.half_year_exam_subject_english {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#half_year_exam_subject_english_gain {
+  /* border: 1px solid red; */
+  margin-left: 119px;
+}
+
+#half_year_exam_subject_english_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+.half_year_exam_subject_maths {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#half_year_exam_subject_maths_gain {
+  /* border: 1px solid red; */
+  margin-left: 135px;
+}
+
+#half_year_exam_subject_maths_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+
+.half_year_exam_subject_science {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#half_year_exam_subject_science_gain {
+  /* border: 1px solid red; */
+  margin-left: 121px;
+}
+
+#half_year_exam_subject_science_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+
+.half_year_exam_subject_computer {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#half_year_exam_subject_computer_gain {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+#half_year_exam_subject_computer_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+.half_year_exam_subject_grand_total {
+  color: orangered;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#half_year_exam_subject_grand_total_gain {
+  /* border: 1px solid red; */
+  margin-left: 82px;
+}
+
+#half_year_exam_subject_grand_total_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+.feessubmitbutton {
+  margin-left: 45%;
+  border: 1px solid black;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feessubmitbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.feesresetbutton {
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feesresetbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.second_qrt_exam_div_top_title {
+  /* border-bottom: 2px solid grey; */
+  height: 150px;
+  width: 100%;
+}
+
+.second_qrt_exam_div_top_title h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.second_qrt_exam_div_top_title p {
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+
+}
+
+.second_qrt_exam_div_top_title h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 0;
+  /* border: 1px solid white; */
+}
+
+.second_qrt_top_main_form_div {
+  /* border: 1px solid white; */
+  height: 700px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.second_qrt_exam_class {
+  /* border: 1px solid red; */
+  color: white;
+  margin-left: 40%;
+  font-style: italic;
+
+}
+
+#second_qrt_exam_class {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+.second_qrt_exam_Id {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+  font-style: italic;
+}
+
+#second_qrt_exam_Id {
+  /* border: 1px solid red; */
+  margin-left: 188px;
+}
+
+.second_qrt_exam_Student_Id {
+  /* border: 1px solid red; */
+  color: white;
+  font-style: italic;
+  margin-left: 40%;
+}
+
+#second_qrt_exam_Student_Id {
+  /* border: 1px solid red; */
+  margin-left: 115px;
+}
+
+.second_qrt_exam_firstname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#second_qrt_exam_firstname {
+  /* border: 1px solid red; */
+  margin-left: 116px;
+}
+
+.second_qrt_exam_lastname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#second_qrt_exam_lastname {
+  /* border: 1px solid red; */
+  margin-left: 122px;
+}
+
+.marks_details {
+  color: white;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.subject {
+  color: white;
+  border: 1px solid orangered;
+  width: 10%;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 28%;
+  display: inline-block;
+}
+
+.marks_gain {
+  color: white;
+  border: 1px solid orangered;
+  width: 13%;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px; 
+}
+
+.total_marks {
+  color: white;
+  border: 1px solid orangered;
+  width: 11%;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+.second_qrt_exam_subject_hindi {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#second_qrt_exam_subject_hindi_gain {
+  /* border: 1px solid red; */
+  margin-left: 140px;
+}
+
+#second_qrt_exam_subject_hindi_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+.second_qrt_exam_subject_english {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#second_qrt_exam_subject_english_gain {
+  /* border: 1px solid red; */
+  margin-left: 119px;
+}
+
+#second_qrt_exam_subject_english_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+.second_qrt_exam_subject_maths {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#second_qrt_exam_subject_maths_gain {
+  /* border: 1px solid red; */
+  margin-left: 135px;
+}
+
+#second_qrt_exam_subject_maths_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+
+.second_qrt_exam_subject_science {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#second_qrt_exam_subject_science_gain {
+  /* border: 1px solid red; */
+  margin-left: 121px;
+}
+
+#second_qrt_exam_subject_science_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+
+.second_qrt_exam_subject_computer {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#second_qrt_exam_subject_computer_gain {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+#second_qrt_exam_subject_computer_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+.second_qrt_exam_subject_grand_total {
+  color: orangered;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#second_qrt_exam_subject_grand_total_gain {
+  /* border: 1px solid red; */
+  margin-left: 82px;
+}
+
+#second_qrt_exam_subject_grand_total_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+.feessubmitbutton {
+  margin-left: 45%;
+  border: 1px solid black;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feessubmitbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.feesresetbutton {
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feesresetbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+
+.final_year_exam_div_top_title {
+  /* border-bottom: 2px solid grey; */
+  height: 150px;
+  width: 100%;
+}
+
+.final_year_exam_div_top_title h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.final_year_exam_div_top_title p {
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+
+}
+
+.final_year_exam_div_top_title h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 0;
+  /* border: 1px solid white; */
+}
+
+.final_year_top_main_form_div {
+  /* border: 1px solid white; */
+  height: 700px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.final_year_exam_class {
+  /* border: 1px solid red; */
+  color: white;
+  margin-left: 40%;
+  font-style: italic;
+
+}
+
+#final_year_exam_class {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+.final_year_exam_Id {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+  font-style: italic;
+}
+
+#final_year_exam_Id {
+  /* border: 1px solid red; */
+  margin-left: 188px;
+}
+
+.final_year_exam_Student_Id {
+  /* border: 1px solid red; */
+  color: white;
+  font-style: italic;
+  margin-left: 40%;
+}
+
+#final_year_exam_Student_Id {
+  /* border: 1px solid red; */
+  margin-left: 115px;
+}
+
+.final_year_exam_firstname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#final_year_exam_firstname {
+  /* border: 1px solid red; */
+  margin-left: 116px;
+}
+
+.final_year_exam_lastname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#final_year_exam_lastname {
+  /* border: 1px solid red; */
+  margin-left: 122px;
+}
+
+.marks_details {
+  color: white;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.subject {
+  color: white;
+  border: 1px solid orangered;
+  width: 10%;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 28%;
+  display: inline-block;
+}
+
+.marks_gain {
+  color: white;
+  border: 1px solid orangered;
+  width: 13%;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px; 
+}
+
+.total_marks {
+  color: white;
+  border: 1px solid orangered;
+  width: 11%;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+.final_year_exam_subject_hindi {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#final_year_exam_subject_hindi_gain {
+  /* border: 1px solid red; */
+  margin-left: 140px;
+}
+
+#final_year_exam_subject_hindi_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+.final_year_exam_subject_english {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#final_year_exam_subject_english_gain {
+  /* border: 1px solid red; */
+  margin-left: 119px;
+}
+
+#final_year_exam_subject_english_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+.final_year_exam_subject_maths {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#final_year_exam_subject_maths_gain {
+  /* border: 1px solid red; */
+  margin-left: 135px;
+}
+
+#final_year_exam_subject_maths_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+
+.final_year_exam_subject_science {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#final_year_exam_subject_science_gain {
+  /* border: 1px solid red; */
+  margin-left: 121px;
+}
+
+#final_year_exam_subject_science_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+
+.final_year_exam_subject_computer {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#final_year_exam_subject_computer_gain {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+#final_year_exam_subject_computer_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+
+.final_year_exam_subject_grand_total {
+  color: orangered;
+  /* border: 1px solid red; */
+  margin-left: 32%;
+  font-style: italic;
+}
+
+#final_year_exam_subject_grand_total_gain {
+  /* border: 1px solid red; */
+  margin-left: 82px;
+}
+
+#final_year_exam_subject_grand_total_total {
+  /* border: 1px solid red; */
+  margin-left: 88px;
+}
+
+.feessubmitbutton {
+  margin-left: 45%;
+  border: 1px solid black;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feessubmitbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.feesresetbutton {
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feesresetbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.first_qrt_exam_div_top_title {
+  /* border-bottom: 2px solid grey; */
+  height: 150px;
+  width: 100%;
+}
+
+.first_qrt_exam_div_top_title h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.first_qrt_exam_div_top_title p {
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+
+}
+
+.first_qrt_exam_div_top_title h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 0;
+  /* border: 1px solid white; */
+}
+
+.first_qrt_top_main_form_div {
+  /* border: 1px solid white; */
+  height: 250px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.first_qrt_exam_class {
+  /* border: 1px solid red; */
+  color: white;
+  margin-left: 40%;
+  font-style: italic;
+
+}
+
+#first_qrt_exam_class {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+.first_qrt_exam_Student_Id {
+  /* border: 1px solid red; */
+  color: white;
+  font-style: italic;
+  margin-left: 40%;
+}
+
+#first_qrt_exam_Student_Id {
+  /* border: 1px solid red; */
+  margin-left: 115px;
+}
+
+.first_qrt_exam_firstname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#first_qrt_exam_firstname {
+  /* border: 1px solid red; */
+  margin-left: 116px;
+}
+
+.first_qrt_exam_lastname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#first_qrt_exam_lastname {
+  /* border: 1px solid red; */
+  margin-left: 122px;
+}
+
+.feessubmitbutton {
+  margin-left: 45%;
+  border: 1px solid black;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feessubmitbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.feesresetbutton {
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feesresetbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+
+.half_yearly_exam_div_top_title {
+  /* border-bottom: 2px solid grey; */
+  height: 150px;
+  width: 100%;
+}
+
+.half_yearly_exam_div_top_title h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.half_yearly_exam_div_top_title p {
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+
+}
+
+.half_yearly_exam_div_top_title h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 0;
+  /* border: 1px solid white; */
+}
+
+.half_yearly_top_main_form_div {
+  /* border: 1px solid white; */
+  height: 250px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.half_yearly_exam_class {
+  /* border: 1px solid red; */
+  color: white;
+  margin-left: 40%;
+  font-style: italic;
+
+}
+
+#half_yearly_exam_class {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+.half_yearly_exam_Student_Id {
+  /* border: 1px solid red; */
+  color: white;
+  font-style: italic;
+  margin-left: 40%;
+}
+
+#half_yearly_exam_Student_Id {
+  /* border: 1px solid red; */
+  margin-left: 115px;
+}
+
+.half_yearly_exam_firstname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#half_yearly_exam_firstname {
+  /* border: 1px solid red; */
+  margin-left: 116px;
+}
+
+.half_yearly_exam_lastname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#half_yearly_exam_lastname {
+  /* border: 1px solid red; */
+  margin-left: 122px;
+}
+
+.feessubmitbutton {
+  margin-left: 45%;
+  border: 1px solid black;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feessubmitbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.feesresetbutton {
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feesresetbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.second_qrt_exam_div_top_title {
+  /* border-bottom: 2px solid grey; */
+  height: 150px;
+  width: 100%;
+}
+
+.second_qrt_exam_div_top_title h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.second_qrt_exam_div_top_title p {
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+
+}
+
+.second_qrt_exam_div_top_title h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 0;
+  /* border: 1px solid white; */
+}
+
+.second_qrt_top_main_form_div {
+  /* border: 1px solid white; */
+  height: 250px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.second_qrt_exam_class {
+  /* border: 1px solid red; */
+  color: white;
+  margin-left: 40%;
+  font-style: italic;
+
+}
+
+#second_qrt_exam_class {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+.second_qrt_exam_Student_Id {
+  /* border: 1px solid red; */
+  color: white;
+  font-style: italic;
+  margin-left: 40%;
+}
+
+#second_qrt_exam_Student_Id {
+  /* border: 1px solid red; */
+  margin-left: 115px;
+}
+
+.second_qrt_exam_firstname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#second_qrt_exam_firstname {
+  /* border: 1px solid red; */
+  margin-left: 116px;
+}
+
+.second_qrt_exam_lastname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#second_qrt_exam_lastname {
+  /* border: 1px solid red; */
+  margin-left: 122px;
+}
+
+.feessubmitbutton {
+  margin-left: 45%;
+  border: 1px solid black;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feessubmitbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.feesresetbutton {
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feesresetbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.final_year_exam_div_top_title {
+  /* border-bottom: 2px solid grey; */
+  height: 150px;
+  width: 100%;
+}
+
+.final_year_exam_div_top_title h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.final_year_exam_div_top_title p {
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+
+}
+
+.final_year_exam_div_top_title h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 0;
+  /* border: 1px solid white; */
+}
+
+.final_year_top_main_form_div {
+  /* border: 1px solid white; */
+  height: 250px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.final_year_exam_class {
+  /* border: 1px solid red; */
+  color: white;
+  margin-left: 40%;
+  font-style: italic;
+
+}
+
+#final_year_exam_class {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+.final_year_exam_Student_Id {
+  /* border: 1px solid red; */
+  color: white;
+  font-style: italic;
+  margin-left: 40%;
+}
+
+#final_year_exam_Student_Id {
+  /* border: 1px solid red; */
+  margin-left: 115px;
+}
+
+.final_year_exam_firstname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#final_year_exam_firstname {
+  /* border: 1px solid red; */
+  margin-left: 116px;
+}
+
+.final_year_exam_lastname {
+  color: white;
+  font-style: italic;
+  /* border: 1px solid red; */
+  margin-left: 40%;
+}
+
+#final_year_exam_lastname {
+  /* border: 1px solid red; */
+  margin-left: 122px;
+}
+
+.feessubmitbutton {
+  margin-left: 45%;
+  border: 1px solid black;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feessubmitbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.feesresetbutton {
+  border: none;
+  background-color: rgb(255, 89, 0);
+  font-size: 15px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feesresetbutton:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.contact_us_main_div {
+  /* border: 1px solid red; */
+  height: 600px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.right_main_div {
+  border: 1px solid white;
+  height: 415px;
+  width: 600px;
+  display: inline-block;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 2px 2px 20px orangered;
+  margin-left: 130px;
+}
+
+.right_main_div_top_section {
+  /* border: 1px solid red; */
+  height: 150px;
+  width: 500px;
+  margin: 20px 50px;
+}
+
+.right_main_div_top_section h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.right_main_div_top_section p {
+  color: rgb(255, 128, 0);
+  font-style: italic;
+  /* border: 1px solid white; */
+  text-align: center;
+  line-height: 22px;
+}
+
+.right_main_div_middle_section {
+  /* border: 1px solid white; */
+  height: 210px;
+  width: 350px;
+  margin-left: 150px;
+}
+
+.formname {
+  /* border: 1px solid red; */
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  
+}
+
+#formname {
+  background-color:#010730;
+  padding: 6px;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+  margin-left: 50px;
+}
+
+::placeholder{
+  color: white;
+}
+
+.foremail {
+  color: white;
+  font-size: 20px;
+  font-style: italic;   
+}
+
+#foremail {
+  background-color:#010730;
+  padding: 6px;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+  margin-left: 50px;   
+}
+
+.formhelp {
+  color: rgb(255, 153, 0);
+  font-style: italic;
+}
+
+.formbutton {
+border: none;
+padding: 10px 30px;
+background-color: orangered;
+color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+margin-top: 0;
+border-radius: 20px;
+margin-left: 86px;
+}
+
+.formbutton:hover{
+background-color: white;
+color: orangered;
+cursor: pointer;
+transition: 0.4s;
+}
+
+.left_main_div {
+  border: 1px solid white;
+  display: inline-block;
+  height: 548px;
+  width: 600px;
+  vertical-align: top;
+  /* background-color: white; */
+  margin-left: 50px;
+  box-shadow: 2px 2px 20px orangered;
+}
+
+.left_main_div h1 {
+  color:orangered;
+  font-size: 40px;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.left_main_div p {
+  color: white;
+  /* border: 1px solid red; */
+  margin-top: 5px;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.handShake {
+  /* border: 1px solid white; */
+  height: 300px;
+  width: 100%;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.allthreemaindiv {
+  /* border: 1px solid white; */
+  height: 120px;
+  width: 100%;
+}
+
+.AllFirstDiv {
+  border-right: 1px solid white;
+  height: 118px;
+  width: 195px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.allthreemaindiv .AllFirstDiv h1 {
+  color: orangered;
+  font-size: 25px;
+  /* border: 1px solid red; */
+}
+
+.allthreemaindiv .AllFirstDiv p {
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.AllsecondDiv {
+  border-right: 1px solid white;
+  height: 118px;
+  width: 195px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.allthreemaindiv .AllsecondDiv h1 {
+  color: orangered;
+  font-size: 25px;
+  /* border: 1px solid red; */
+}
+
+.allthreemaindiv .AllsecondDiv p {
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.AllthirdDiv {
+  /* border: 1px solid white; */
+  height: 118px;
+  width: 195px;
+  display: inline-block;
+}
+
+.allthreemaindiv .AllthirdDiv h1 {
+  color: orangered;
+  font-size: 25px;
+  /* border: 1px solid red; */
+}
+
+.allthreemaindiv .AllthirdDiv p {
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+

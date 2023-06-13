@@ -1,0 +1,65 @@
+<!--------------------------------------- Calling header and footer from base html --------------------------------------->
+{% extends 'base.html'%}
+<!---------------------------------------- Body section will go here --------------------------------------->
+{% block content %}
+<!----------------------------------Addmission form section starts---------------------------------------->
+<div class="admission_div">
+    <div class="admissiondiv">
+        <h2>Addmission Form</h2>
+        <p>2023 - 2024</p>
+    </div>
+    <div class="admissionformsection">
+        <form action="/submit" method="POST">
+            <label class="admissionclassId" for="Class">SELECT CLASS</label>
+            <select id="admissionclass" name="Class" required>
+                <option value="none">None</option>
+                <option value="class1">class1</option>
+                <option value="class2">class2</option>
+                <option value="class3">class3</option>
+                <option value="class4">class4</option>
+                <option value="class5">class5</option>
+                <option value="class6">class6</option>
+                <option value="class7">class7</option>
+                <option value="class8">class8</option>
+                <option value="class9">class9</option>
+                <option value="class10">class10</option>
+                <option value="class11">class11</option>
+                <option value="class12">class12</option>
+            </select><br><br>
+
+            <label class="admissionid" for="id">ID </label>
+            <input type="number" name="id" id="admissioninputid" required><br><br>
+
+            <label class="admissionstudentid" for="student_id"> STUDENT ID </label>
+            <input type="text" name="student_id" id="admissioninputstudentid" required><br><br>
+
+            <label class="admissionfirst_name" for="fname">FIRST NAME</label>
+            <input type="text" name="fname" id="admissionfname" required><br><br>
+
+            <label class="admissionlast_name" for="lname">LAST NAME</label>
+            <input type="text" name="lname" id="admissionlname" required><br><br>
+
+            <label class="admissionfather_name" for="faname">FATHER'S NAME</label>
+            <input type="text" name="faname" id="admissionfaname" required><br><br>
+
+            <label class="admissionmother_name" for="moname">MOTHER'S NAME</label>
+            <input type="text" name="moname" id="admissionmoname" required><br><br>
+
+            <label class="admissionmob_no" for="mobile_number">MOBILE NUMBER</label>
+            <input type="text" name="mobile_number" id="admissionmobno" pattern="\d{10}" maxlength="10" required><br><br>
+
+            <label class="admissionadhar_card" for="adharcard_number">ADHAR CARD NO</label>
+            <input type="text" name="adharcard_number" id="admissionadharcard" pattern="\d{12}" maxlength="12"
+                required><br><br>
+
+            <label class="admissionadress" for="address">ADDRESS</label>
+            <input type="text" name="address" id="admissionadrss" required><br><br>
+
+            <input class="admissionsubmitbutton" type="submit" value="Submit">
+            <input class="admissionresetbutton" type="reset" value="Reset">
+        </form>
+    </div>
+</div>
+<!----------------------------------Addmission form section ends-------------------------------------------->
+{%endblock%}
+<!------------------------------------------ Body section will end here -------------------------------------->

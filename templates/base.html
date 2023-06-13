@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--------------------------------------- Basic --------------------------------------------->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------------------------------- Likning font from googlefonts -------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-REPLACE_WITH_ACTUAL_INTEGRITY_VALUE" crossorigin="anonymous" />
+    <!----------------------------------- Linking CSS file ------------------------------------------->
+    <link rel="stylesheet" type="text/css" href="/static/mainpage.css">
+    <!---------------------------------- Website title --------------------------------->
+    <title>Mirza School & Management</title>
+</head>
+<body>
+    <!------------------------------------- Header section starts -------------------------------------------->
+    <div class="college_name_div">
+        <div class="college_name">
+            <h1 class="gradient-text"><span>MIRZA </span>School & Management</h1>
+            <p class="slogan">Education is Light, Not Business.</p>
+        </div>
+    </div>
+    <!-------------------------------------Navigation section starts------------------------------------->
+    <div class="navbar">
+        <a href="/">HOME</a>
+        <a href="/about">ABOUT US</a>
+        <a href="/admission">ADMISSION</a>
+        <a href="/fees">FEES SUBMISSION</a>
+        <div class="dropdown">
+          <button class="dropbtn">EXAMINATION
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/firstQrtExam">First Quarterly</a>
+            <a href="/halfyearExam">Half Yearly</a>
+            <a href="/secondQrtExam">Second Quarterly</a>
+            <a href="/finalyearExam">Final Yearly</a>
+          </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">RESULTS
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="/firstquartexamresult">First Quarterly</a>
+              <a href="/halfyearexamresult">Half Yearly</a>
+              <a href="/secondquartexamresult">Second Quarterly</a>
+              <a href="/finalyearexamresult">Final Yearly</a>
+            </div>
+          </div>
+        <a href="/contactus">CONTACT US</a>
+      </div>
+    <!-------------------------------------Navigation section ends--------------------------------------->
+    <!---------------------------------------Header section ends----------------------------------------->
+    <!-- -------------------------------------body section start ---------------------------------------->
+    {% block content %}     {% endblock %}
+    <!---------------------------------------body section end ------------------------------------------->
+    <!----------------------------------- Footer section starts --------------------------------------->
+    <div class="footer_div">
+        <div class="left_footer_div">
+            <h1>
+                Services
+            </h1>
+            <p>Web Design</p>
+            <p>Developement</p>
+            <p>Hosting</p>
+        </div>
+        <div class="middle_footer_div">
+            <h1>
+                About
+            </h1>
+            <p>Company</p>
+            <p>Team</p>
+            <p>Careers</p>
+        </div>
+        <div class="right_footer_div">
+            <h1>
+                Address
+            </h1>
+            <p>Mirza School & Management located near HP Petrol Pump NaiBasti, Circus Road in front of Jama Masjid, 100/a5k Floor, Mughalsarai, Chandauli Uttar Pradesh PinCode 232101.</p>
+        </div>
+        <div class="all_icons_div">
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+            <p>@All Rights Reserved By Shahabjan</p>
+        </div> 
+    </div>
+    <!------------------------------------------ Footer section ends ---------------------------------------->
+    
+</body>
+</html>

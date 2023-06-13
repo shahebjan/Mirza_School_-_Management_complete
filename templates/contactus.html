@@ -1,0 +1,46 @@
+<!--------------------------------------- Calling header and footer from base html --------------------------------------->
+{% extends 'base.html'%}
+<!---------------------------------------- Body section will go here --------------------------------------->
+{% block content %}
+<!------------------------------------Contact us section starts--------------------------------->
+<div class="contact_us_main_div">
+    <div class="right_main_div">
+        <div class="right_main_div_top_section">
+            <h1>Get In Touch</h1>
+            <p>Have an enquiry or any feedback for us?<br>Fill out the form below to contact our team.</p>
+        </div>
+        <div class="right_main_div_middle_section">
+            <form>
+                <label class="formname" for="name">Name</label>
+                <input type="text" id="formname" placeholder="Your Name"><br><br>
+                <label class="foremail" for="email">Email</label>
+                <input type="email" id="foremail" placeholder="Your Email"><br>
+                <p class="formhelp">How can we help with?</p><br><Br>
+                <button class="formbutton">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="left_main_div">
+        <h1>Contact Us</h1>
+        <p>Any question or remarks? Just write us your message.</p>
+        <img class="handShake" src="/static/images/handshake.jpg">
+        <div class="allthreemaindiv">
+            <div class="AllFirstDiv">
+                <h1>India</h1>
+                <p>45 Pirrama Road, Pyrmont<br>NSW 2023</p>
+            </div>
+            <div class="AllsecondDiv">
+                <h1>America</h1>
+                <p>163 Collin St Road, Melbourne<br>VLC 2023</p>
+            </div>
+            <div class="AllthirdDiv">
+                <h1>Australia</h1>
+                <p>340 Main St, Venice CA<br>902291 2023</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------Contact Us section ends-------------------------------------------->
+{%endblock%}
+<!------------------------------------------ Final year result login form section end here -------------------------------------->

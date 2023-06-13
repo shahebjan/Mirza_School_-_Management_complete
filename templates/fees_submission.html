@@ -1,0 +1,86 @@
+<!--------------------------------------- Calling header and footer from base html --------------------------------------->
+{% extends 'base.html'%}
+<!---------------------------------------- Body section will go here --------------------------------------->
+{% block content %}
+<!---------------------------------Fees submission form section starts----------------------------------------->
+<div class="fees_submission_main_div">
+    <div class="fees_submit_div">
+        <h1>Fees Submission Form</h1>
+        <p>2023-2024</p>
+    </div>
+    <div class="formsectionfees">
+        <form action='/submit-fees' method="POST">
+            <label class="feesclass" for="Class">SELECT CLASS</label>
+            <select id="feesclass" name="Class" required>
+                <option value="none">None</option>
+                <option value="class1">class_1</option>
+                <option value="class2">class_2</option>
+                <option value="class3">class_3</option>
+                <option value="class4">class_4</option>
+                <option value="class5">class_5</option>
+                <option value="class6">class_6</option>
+                <option value="class7">class_7</option>
+                <option value="class8">class_8</option>
+                <option value="class9">class_9</option>
+                <option value="class10">class_10</option>
+                <option value="class11">class_11</option>
+                <option value="class12">class_12</option>
+            </select><br><br>
+
+            <label class="fees_id" for="id"> ID </label>
+            <input type="number" name="id" id="feesinputi_d" required><br><br>
+            
+            <label class="feesid" for="student_id"> STUDENT ID </label>
+            <input type="text" name="student_id" id="feesinputid" required><br><br>
+
+            <label class="feesfirst_name" for="fname">FIRST NAME</label>
+            <input type="text" name="fname" id="feesfname" required><br><br>
+
+            <label class="feeslast_name" for="lname">LAST NAME</label>
+            <input type="text" name="lname" id="feeslname" required><br><br>
+
+            <label class="feesapril" for="april">APR 2023</label>
+            <input type="number" id="feesapr" name="april2023" step="0.01"><br><br>
+
+            <label class="feesmay" for="may">MAY 2023</label>
+            <input type="number" id="feesmay" name="may2023" step="0.01"><br><br>
+
+            <label class="feesjune" for="june">JUNE 2023</label>
+            <input type="number" id="feesjune" name="june2023" step="0.01"><br><br>
+
+            <label class="feesjuly" for="july">JULY 2023</label>
+            <input type="number" id="feesjuly" name="july2023" step="0.01"><br><br>
+
+            <label class="feesaug" for="august">AUGUST 2023</label>
+            <input type="number" id="feesaug" name="august2023" step="0.01"><br><br>
+
+            <label class="feessep" for="september">SEPTEMBER 2023</label>
+            <input type="number" id="feessep" name="september2023" step="0.01"><br><br>
+
+            <label class="feesoct" for="october">OCTOBER 2023</label>
+            <input type="number" id="feesoct" name="october2023" step="0.01"><br><br>
+
+            <label class="feesnov" for="november">NOVEMBER 2023</label>
+            <input type="number" id="feesnov" name="november2023" step="0.01"><br><br>
+
+            <label class="feesdec" for="december">DECEMBER 2023</label>
+            <input type="number" id="feesdec" name="december2023" step="0.01"><br><br>
+
+            <label class="feesjan" for="january">JANUARY 2024</label>
+            <input type="number" id="feesjan" name="january2024" step="0.01"><br><br>
+
+            <label class="feesfeb" for="february">FEBRUARY 2024</label>
+            <input type="number" id="feesfeb" name="february2024" step="0.01"><br><br>
+
+            <label class="feesmar" for="march">MARCH 2024</label>
+            <input type="number" id="feesmar" name="march2024" step="0.01"><br><br>
+
+            <input class="feessubmitbutton" type="submit" value="Submit">
+            <input class="feesresetbutton" type="reset" value="Reset">
+
+        </form>
+    </div>
+</div>
+<!---------------------------------Fees submission form section ends----------------------------------------->
+{%endblock%}
+<!------------------------------------------ Body section will end here -------------------------------------->

@@ -1,0 +1,49 @@
+<!--------------------------------------- Calling header and footer from base html --------------------------------------->
+{% extends 'base.html'%}
+<!---------------------------------------- Body section will go here --------------------------------------->
+{% block content %}
+<!-------------------------------------Form top header section starts-------------------------------------->
+<div class="final_year_exam_div">
+    <div class="final_year_exam_div_top_title">
+        <h1>Final Year Examination</h1>
+        <p>Result 2023 - 2024</p>
+        <h2>Student Login</h2>
+    </div>
+</div>
+<!-------------------------------------Form top header section ends-------------------------------------->
+<!-------------------------------------Final year result login form section starts-------------------------------------->
+<div class="final_year_top_main_form_div">
+    <form action="/final-yr-exm-rslt" method="POST">
+        <label class="final_year_exam_class" for="Class">SELECT CLASS</label>
+        <select id="final_year_exam_class" name="Class" required>
+            <option value="none">None</option>
+            <option value="class1">class__1</option>
+            <option value="class2">class__2</option>
+            <option value="class3">class__3</option>
+            <option value="class4">class__4</option>
+            <option value="class5">class__5</option>
+            <option value="class6">class__6</option>
+            <option value="class7">class__7</option>
+            <option value="class8">class__8</option>
+            <option value="class9">class__9</option>
+            <option value="class10">class__10</option>
+            <option value="class11">class__11</option>
+            <option value="class12">class__12</option>
+        </select><br><br>
+
+        <label class="final_year_exam_Student_Id" for="student_id">STUDENT ID</label>
+        <input type="text" name="student_id" id="final_year_exam_Student_Id"><br><br>
+
+        <label class="final_year_exam_firstname" for="first_name">FIRST NAME</label>
+        <input type="text" name="first_name" id="final_year_exam_firstname"><br><br>
+
+        <label class="final_year_exam_lastname" for="last_name">LAST NAME</label>
+        <input type="text" name="last_name" id="final_year_exam_lastname"><br><br>
+
+        <input class="feessubmitbutton" type="submit" value="Submit">
+        <input class="feesresetbutton" type="reset" value="Reset">
+    </form>
+</div>
+<!-------------------------------------Main form section ends-------------------------------------->
+{%endblock%}
+<!------------------------------------------ Final year result login form section end here -------------------------------------->

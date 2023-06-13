@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fees Submission Data</title>
+</head>
+<style>
+    tr, th, td {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    th {
+        background-color: whitesmoke;
+    }
+
+    button {
+        margin-left: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>CLASS NAME</th>
+                <th>ID</th>
+                <th>STUDENT ID</th>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>APRIL2023</th>
+                <th>MAY2023</th>
+                <th>JUNE2023</th>
+                <th>JULY2023</th>
+                <th>AUG2023</th>
+                <th>SEP2023</th>
+                <th>OCT2023</th>
+                <th>NOV2023</th>
+                <th>DEC2023</th>
+                <th>JAN2024</th>
+                <th>FEB2024</th>
+                <th>MAR2024</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%for row in data%}
+            <tr>
+                <td>{{row[0]}}</td>
+                <td>{{row[1]}}</td>
+                <td>{{row[2]}}</td>
+                <td>{{row[3]}}</td>
+                <td>{{row[4]}}</td>
+                <td>{{row[5]}}</td>
+                <td>{{row[6]}}</td>
+                <td>{{row[7]}}</td>
+                <td>{{row[8]}}</td>
+                <td>{{row[9]}}</td>
+                <td>{{row[10]}}</td>
+                <td>{{row[11]}}</td>
+                <td>{{row[12]}}</td>
+                <td>{{row[13]}}</td>
+                <td>{{row[14]}}</td>
+                <td>{{row[15]}}</td>
+                <td>{{row[16]}}</td>
+            </tr>
+            {%endfor%}
+            <a href="/fees"><button>Insert New</button></a>
+</body>
+</html>
